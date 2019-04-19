@@ -8,10 +8,9 @@ using UnityEngine;
 		  is found in the scene
 */
 
-public class ColliderHandler : MonoBehaviour
+public class ColliderHandler : MonoBehaviour 
 {
-
-	Collider objectCollider;
+    Collider objectCollider;
 
     void Start()
     {
@@ -23,7 +22,7 @@ public class ColliderHandler : MonoBehaviour
     {
         if(GameObject.FindWithTag("Deactivator") != null)
         {
-        	objectCollider.enabled = false;
+            objectCollider.enabled = false;
         }
 
         else
